@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-17T20:21:57 IST" name="RestAssured" finished-at="2025-05-17T20:22:08 IST" duration-ms="11774">
+    <groups>
+    </groups>
+    <test started-at="2025-05-17T20:21:57 IST" name="Test" finished-at="2025-05-17T20:22:08 IST" duration-ms="11774">
+      <class name="day1.Schemavalidator">
+        <test-method signature="getmethod()[pri:1, instance:day1.Schemavalidator@3590fc5b]" started-at="2025-05-17T20:21:57 IST" name="getmethod" finished-at="2025-05-17T20:21:59 IST" duration-ms="2773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getmethod -->
+      </class> <!-- day1.Schemavalidator -->
+      <class name="day1.Getrequest">
+        <test-method signature="deleteuser()[pri:0, instance:day1.Getrequest@2d3379b4]" started-at="2025-05-17T20:21:59 IST" name="deleteuser" finished-at="2025-05-17T20:22:00 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+        <test-method signature="getmethod()[pri:1, instance:day1.Getrequest@2d3379b4]" started-at="2025-05-17T20:22:00 IST" name="getmethod" finished-at="2025-05-17T20:22:05 IST" duration-ms="5386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getmethod -->
+        <test-method signature="postmethod()[pri:2, instance:day1.Getrequest@2d3379b4]" started-at="2025-05-17T20:22:05 IST" name="postmethod" finished-at="2025-05-17T20:22:08 IST" duration-ms="2350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postmethod -->
+        <test-method signature="updateuser()[pri:3, instance:day1.Getrequest@2d3379b4]" started-at="2025-05-17T20:22:08 IST" name="updateuser" finished-at="2025-05-17T20:22:08 IST" depends-on-methods="day1.Getrequest.postmethod" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateuser -->
+      </class> <!-- day1.Getrequest -->
+    </test> <!-- Test -->
+  </suite> <!-- RestAssured -->
+</testng-results>
