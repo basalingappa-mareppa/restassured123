@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="day1.Schemavalidator">
+      <class name="day1.Getrequest">
         <methods>
+          <include name="deleteuser"/>
+          <include name="postmethod"/>
+          <include name="updateuser"/>
           <include name="getmethod"/>
         </methods>
-      </class> <!-- day1.Schemavalidator -->
+      </class> <!-- day1.Getrequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

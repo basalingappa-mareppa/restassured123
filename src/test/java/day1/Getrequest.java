@@ -63,7 +63,7 @@ public class Getrequest {
 		.post("https://reqres.in/api/users"+id)
 		.then()
 		.statusCode(201)
-		.log().all();
+		.body("job",equalTo("developer"));
 	}
 	
 	@Test
